@@ -1,0 +1,28 @@
+name: traveloka_clone
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  bloc: ^8.1.2
+  firebase_auth: ^4.12.0
+  firebase_core: ^2.20.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_carousel_widget: ^2.1.0
+  get_it: ^7.6.4
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
